@@ -10,3 +10,12 @@ h1 {
 p {
     color: black;
 }
+
+li {
+     float: left;
+ }
+
+a {
+     display: block;
+     width: 60px;
+ }
