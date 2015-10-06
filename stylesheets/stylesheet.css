@@ -1,11 +1,11 @@
-body {
+bbody {
 
     margin: 0;
     padding-left: 10;
     width: 100%;
     background-image: url("../images/cannon.jpg");
     background-repeat: no-repeat;
-    background-size: 1700px 1700px;
+    background-size: 1600px 1600px;
 }
 
 h1 {
@@ -17,9 +17,10 @@ h1 {
 
 h2 {
     color: black;
-    margin-left: 30px;
+    margin-left: 45px;
     font-family: "Garamound", "Verdana"; 
     font-size: 10px;
+    padding: 0;
 }
 
 p {
@@ -49,14 +50,32 @@ a {
      list-style-type: none;
      padding: 5;
      margin-top: 5;
+     margin-left: 45;
 
  }
 
- li.after {
+/* li.after {
     margin: 0 0 10px 0;
     content:"\0000A";
     white-space: pre;
     
- }
+ }*/
 
+ul.description {
+    margin-left: 65;
+    margin-bottom: 0;
+    margin-top: 0; 
+    padding: 0 ;
+    line-height: .5;
 
+}
+
+p.link {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+h3 {
+    display: inline-block;
+}
