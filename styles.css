@@ -1,0 +1,27 @@
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: lightgreen;
+    margin-left: 20px;
+}
+
+p {
+    color: black;
+}
+
+li {
+     float: left;
+ }
+
+a {
+     display: block;
+     width: 75px;
+ }
+ 
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
