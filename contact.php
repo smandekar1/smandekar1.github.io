@@ -1,14 +1,3 @@
-<?php
-if($_POST["message"]) {
-    mail("slmahisekar@gmail.com", "Form to email message", $_POST["message"], "From: contactform@github.io");
-}
-?>
-
-
-<form method="post" action="contact.php">
-    <textarea name="message"></textarea>
-    <input type="submit">
-</form>
 
 
 <?php
