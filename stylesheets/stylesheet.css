@@ -79,3 +79,16 @@ p.link {
 h3 {
     display: inline-block;
 }
+
+
+
+h4 {
+    margin: 10px 50px 50px 50px; 
+    padding: 2em;
+}
+
+
+img.image {
+  display: block;
+  margin: 0px 50px 100px 200px;
+} 
